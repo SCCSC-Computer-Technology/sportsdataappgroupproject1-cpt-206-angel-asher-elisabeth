@@ -1,0 +1,14 @@
+C:\Users\elmor\source\repos\AngelAsherElisabeth-Project1\bin\Debug\AngelAsherElisabeth-Project1.exe.config
+C:\Users\elmor\source\repos\AngelAsherElisabeth-Project1\bin\Debug\AngelAsherElisabeth-Project1.exe
+C:\Users\elmor\source\repos\AngelAsherElisabeth-Project1\bin\Debug\AngelAsherElisabeth-Project1.pdb
+C:\Users\elmor\source\repos\AngelAsherElisabeth-Project1\obj\Debug\AngelAsherElisabeth-Project1.csproj.AssemblyReference.cache
+C:\Users\elmor\source\repos\AngelAsherElisabeth-Project1\obj\Debug\AngelAsherElisabeth_Project1.CustomizationForm.resources
+C:\Users\elmor\source\repos\AngelAsherElisabeth-Project1\obj\Debug\AngelAsherElisabeth_Project1.Dashboard.resources
+C:\Users\elmor\source\repos\AngelAsherElisabeth-Project1\obj\Debug\AngelAsherElisabeth_Project1.Form1.resources
+C:\Users\elmor\source\repos\AngelAsherElisabeth-Project1\obj\Debug\AngelAsherElisabeth_Project1.Properties.Resources.resources
+C:\Users\elmor\source\repos\AngelAsherElisabeth-Project1\obj\Debug\AngelAsherElisabeth_Project1.RegisterForm.resources
+C:\Users\elmor\source\repos\AngelAsherElisabeth-Project1\obj\Debug\AngelAsherElisabeth_Project1.StatsForm.resources
+C:\Users\elmor\source\repos\AngelAsherElisabeth-Project1\obj\Debug\AngelAsherElisabeth-Project1.csproj.GenerateResource.cache
+C:\Users\elmor\source\repos\AngelAsherElisabeth-Project1\obj\Debug\AngelAsherElisabeth-Project1.csproj.CoreCompileInputs.cache
+C:\Users\elmor\source\repos\AngelAsherElisabeth-Project1\obj\Debug\AngelAsherElisabeth-Project1.exe
+C:\Users\elmor\source\repos\AngelAsherElisabeth-Project1\obj\Debug\AngelAsherElisabeth-Project1.pdb
