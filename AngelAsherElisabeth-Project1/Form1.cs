@@ -48,7 +48,7 @@ namespace AngelAsherElisabeth_Project1
             else { 
                 MessageBox.Show("Login successful! Welcome, " + username);
                 // Proceed to the next form or functionality
-                Dashboard dashboard = new Dashboard(loginResult);
+                StatsForm dashboard = new StatsForm(loginResult);
                 this.Hide();
                 dashboard.UserId = loginResult;
                 dashboard.Show();
