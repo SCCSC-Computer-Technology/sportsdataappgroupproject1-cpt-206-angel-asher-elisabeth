@@ -31,6 +31,7 @@
             this.btnSport1 = new System.Windows.Forms.Button();
             this.btnSport2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
+            this.LblUserGreeting = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnSport1
@@ -64,17 +65,28 @@
             this.button3.Text = "E&xit";
             this.button3.UseVisualStyleBackColor = true;
             // 
+            // LblUserGreeting
+            // 
+            this.LblUserGreeting.AutoSize = true;
+            this.LblUserGreeting.Location = new System.Drawing.Point(62, 29);
+            this.LblUserGreeting.Name = "LblUserGreeting";
+            this.LblUserGreeting.Size = new System.Drawing.Size(29, 13);
+            this.LblUserGreeting.TabIndex = 3;
+            this.LblUserGreeting.Text = "Hey!";
+            // 
             // Dashboard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.LblUserGreeting);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.btnSport2);
             this.Controls.Add(this.btnSport1);
             this.Name = "Dashboard";
             this.Text = "Dashboard";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -83,5 +95,6 @@
         private System.Windows.Forms.Button btnSport1;
         private System.Windows.Forms.Button btnSport2;
         private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Label LblUserGreeting;
     }
 }
