@@ -39,5 +39,10 @@ namespace AngelAsherElisabeth_Project1
               //  LblUserGreeting.Text = "Welcome, User!";
             }
         }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

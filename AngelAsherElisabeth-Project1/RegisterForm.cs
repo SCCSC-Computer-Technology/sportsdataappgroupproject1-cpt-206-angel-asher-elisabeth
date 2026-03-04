@@ -38,5 +38,17 @@ namespace AngelAsherElisabeth_Project1
             
 
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {   //Clears all fields 
+            TxtUsername.Clear();
+            TxtPassword.Clear();
+            TxtEmail.Clear();
+        }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {   //Close form
+            this.Close();
+        }
     }
 }

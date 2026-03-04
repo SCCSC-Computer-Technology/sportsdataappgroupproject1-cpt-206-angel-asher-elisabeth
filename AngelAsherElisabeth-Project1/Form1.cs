@@ -25,13 +25,7 @@ namespace AngelAsherElisabeth_Project1
             registerForm.Show();
         }
 
-        private void btnSettings_Click(object sender, EventArgs e)
-        {
-            //Opens Customization form
-            CustomizationForm customizationForm = new CustomizationForm();
-            this.Hide();
-            customizationForm.Show();
-        }
+
 
         private void button1_Click(object sender, EventArgs e)
         {
@@ -48,12 +42,26 @@ namespace AngelAsherElisabeth_Project1
             else { 
                 MessageBox.Show("Login successful! Welcome, " + username);
                 // Proceed to the next form or functionality
-                StatsForm dashboard = new StatsForm(loginResult);
+              
                 this.Hide();
-                dashboard.UserId = loginResult;
-                dashboard.Show();
+              
+
+
+
             }
 
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {   //Clears the username and password textbox
+            textBox1.Clear();
+            textBox2.Clear();
+        }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            //Close form1 
+            this.Close();
         }
     }
 }

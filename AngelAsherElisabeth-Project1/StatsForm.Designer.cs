@@ -29,244 +29,120 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.btnClear = new System.Windows.Forms.Button();
-            this.btnExit = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.cbSport = new System.Windows.Forms.ComboBox();
-            this.cbTeam = new System.Windows.Forms.ComboBox();
-            this.dgvTable = new System.Windows.Forms.DataGridView();
-            this.nba_teamsBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.sportsDBDataSet = new AngelAsherElisabeth_Project1.SportsDBDataSet();
-            this.nba_teamsTableAdapter = new AngelAsherElisabeth_Project1.SportsDBDataSetTableAdapters.nba_teamsTableAdapter();
-            this.tableAdapterManager = new AngelAsherElisabeth_Project1.SportsDBDataSetTableAdapters.TableAdapterManager();
-            this.btnSchedule = new System.Windows.Forms.Button();
-            this.btnSettings = new System.Windows.Forms.Button();
-            this.LblUserGreeting = new System.Windows.Forms.Label();
-            this.nameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.winsDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.drawsDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.losesDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.pointsforDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.pointsagainstDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.positionDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvTable)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.nba_teamsBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.sportsDBDataSet)).BeginInit();
+            this.comboBoxSport = new System.Windows.Forms.ComboBox();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.btnExit = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
+            this.button2 = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
-            // btnClear
+            // button4
             // 
-            this.btnClear.Location = new System.Drawing.Point(430, 557);
-            this.btnClear.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.btnClear.Name = "btnClear";
-            this.btnClear.Size = new System.Drawing.Size(143, 51);
-            this.btnClear.TabIndex = 3;
-            this.btnClear.Text = "&Clear";
-            this.btnClear.UseVisualStyleBackColor = true;
-            this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
-            // 
-            // btnExit
-            // 
-            this.btnExit.Location = new System.Drawing.Point(766, 557);
-            this.btnExit.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.btnExit.Name = "btnExit";
-            this.btnExit.Size = new System.Drawing.Size(136, 51);
-            this.btnExit.TabIndex = 4;
-            this.btnExit.Text = "E&xit";
-            this.btnExit.UseVisualStyleBackColor = true;
-            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
+            this.button4.BackColor = System.Drawing.Color.LightGray;
+            this.button4.ForeColor = System.Drawing.Color.Black;
+            this.button4.Location = new System.Drawing.Point(687, 356);
+            this.button4.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(88, 23);
+            this.button4.TabIndex = 2;
+            this.button4.Text = "C&lear";
+            this.toolTip1.SetToolTip(this.button4, "Click to clear all fields ");
+            this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(55, 20);
+            this.label2.Location = new System.Drawing.Point(42, 80);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(58, 20);
+            this.label2.Size = new System.Drawing.Size(53, 13);
             this.label2.TabIndex = 6;
-            this.label2.Text = "Sport:";
+            this.label2.Text = "League:";
             // 
-            // label3
+            // comboBoxSport
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(55, 67);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(58, 20);
-            this.label3.TabIndex = 7;
-            this.label3.Text = "Team:";
+            this.comboBoxSport.FormattingEnabled = true;
+            this.comboBoxSport.Location = new System.Drawing.Point(92, 77);
+            this.comboBoxSport.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.comboBoxSport.Name = "comboBoxSport";
+            this.comboBoxSport.Size = new System.Drawing.Size(140, 21);
+            this.comboBoxSport.TabIndex = 1;
             // 
-            // cbSport
+            // dataGridView1
             // 
-            this.cbSport.FormattingEnabled = true;
-            this.cbSport.Items.AddRange(new object[] {
-            "National Basketball Association(NBA)",
-            "English Premier League(EPL)"});
-            this.cbSport.Location = new System.Drawing.Point(121, 17);
-            this.cbSport.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.cbSport.Name = "cbSport";
-            this.cbSport.Size = new System.Drawing.Size(180, 28);
-            this.cbSport.TabIndex = 8;
-            this.cbSport.SelectedIndexChanged += new System.EventHandler(this.cbSport_SelectedIndexChanged);
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(36, 108);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(862, 242);
+            this.dataGridView1.TabIndex = 13;
             // 
-            // cbTeam
+            // btnExit
             // 
-            this.cbTeam.FormattingEnabled = true;
-            this.cbTeam.Location = new System.Drawing.Point(121, 64);
-            this.cbTeam.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.cbTeam.Name = "cbTeam";
-            this.cbTeam.Size = new System.Drawing.Size(180, 28);
-            this.cbTeam.TabIndex = 9;
+            this.btnExit.BackColor = System.Drawing.Color.LightGray;
+            this.btnExit.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            this.btnExit.ForeColor = System.Drawing.Color.Black;
+            this.btnExit.Location = new System.Drawing.Point(899, 12);
+            this.btnExit.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.btnExit.Name = "btnExit";
+            this.btnExit.Size = new System.Drawing.Size(21, 23);
+            this.btnExit.TabIndex = 5;
+            this.btnExit.Text = "X";
+            this.toolTip1.SetToolTip(this.btnExit, "Click to exit");
+            this.btnExit.UseVisualStyleBackColor = false;
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
-            // dgvTable
+            // button1
             // 
-            this.dgvTable.AutoGenerateColumns = false;
-            this.dgvTable.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvTable.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.nameDataGridViewTextBoxColumn,
-            this.winsDataGridViewTextBoxColumn,
-            this.drawsDataGridViewTextBoxColumn,
-            this.losesDataGridViewTextBoxColumn,
-            this.pointsforDataGridViewTextBoxColumn,
-            this.pointsagainstDataGridViewTextBoxColumn,
-            this.positionDataGridViewTextBoxColumn});
-            this.dgvTable.DataSource = this.nba_teamsBindingSource;
-            this.dgvTable.Location = new System.Drawing.Point(45, 115);
-            this.dgvTable.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.dgvTable.Name = "dgvTable";
-            this.dgvTable.Size = new System.Drawing.Size(905, 423);
-            this.dgvTable.TabIndex = 13;
+            this.button1.BackColor = System.Drawing.Color.LightGray;
+            this.button1.ForeColor = System.Drawing.Color.Black;
+            this.button1.Location = new System.Drawing.Point(782, 356);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(116, 23);
+            this.button1.TabIndex = 3;
+            this.button1.Text = "View Schedule ";
+            this.toolTip1.SetToolTip(this.button1, "Click to view schedule");
+            this.button1.UseVisualStyleBackColor = false;
             // 
-            // nba_teamsBindingSource
+            // button2
             // 
-            this.nba_teamsBindingSource.DataMember = "nba_teams";
-            this.nba_teamsBindingSource.DataSource = this.sportsDBDataSet;
-            // 
-            // sportsDBDataSet
-            // 
-            this.sportsDBDataSet.DataSetName = "SportsDBDataSet";
-            this.sportsDBDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // nba_teamsTableAdapter
-            // 
-            this.nba_teamsTableAdapter.ClearBeforeFill = true;
-            // 
-            // tableAdapterManager
-            // 
-            this.tableAdapterManager.BackupDataSetBeforeUpdate = false;
-            this.tableAdapterManager.nba_teamsTableAdapter = this.nba_teamsTableAdapter;
-            this.tableAdapterManager.scheduleTableAdapter = null;
-            this.tableAdapterManager.sportsTableAdapter = null;
-            this.tableAdapterManager.UpdateOrder = AngelAsherElisabeth_Project1.SportsDBDataSetTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete;
-            this.tableAdapterManager.user_teamsTableAdapter = null;
-            this.tableAdapterManager.usersTableAdapter = null;
-            // 
-            // btnSchedule
-            // 
-            this.btnSchedule.Location = new System.Drawing.Point(85, 557);
-            this.btnSchedule.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.btnSchedule.Name = "btnSchedule";
-            this.btnSchedule.Size = new System.Drawing.Size(132, 51);
-            this.btnSchedule.TabIndex = 14;
-            this.btnSchedule.Text = "&View Schedule";
-            this.btnSchedule.UseVisualStyleBackColor = true;
-            this.btnSchedule.Click += new System.EventHandler(this.btnSchedule_Click);
-            // 
-            // btnSettings
-            // 
-            this.btnSettings.Location = new System.Drawing.Point(822, 17);
-            this.btnSettings.Name = "btnSettings";
-            this.btnSettings.Size = new System.Drawing.Size(161, 54);
-            this.btnSettings.TabIndex = 15;
-            this.btnSettings.Text = "&Account";
-            this.btnSettings.UseVisualStyleBackColor = true;
-            this.btnSettings.Click += new System.EventHandler(this.btnSettings_Click);
-            // 
-            // LblUserGreeting
-            // 
-            this.LblUserGreeting.AutoSize = true;
-            this.LblUserGreeting.Location = new System.Drawing.Point(388, 17);
-            this.LblUserGreeting.Name = "LblUserGreeting";
-            this.LblUserGreeting.Size = new System.Drawing.Size(51, 20);
-            this.LblUserGreeting.TabIndex = 16;
-            this.LblUserGreeting.Text = "label1";
-            // 
-            // nameDataGridViewTextBoxColumn
-            // 
-            this.nameDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.nameDataGridViewTextBoxColumn.DataPropertyName = "name";
-            this.nameDataGridViewTextBoxColumn.HeaderText = "Team Name";
-            this.nameDataGridViewTextBoxColumn.Name = "nameDataGridViewTextBoxColumn";
-            // 
-            // winsDataGridViewTextBoxColumn
-            // 
-            this.winsDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.winsDataGridViewTextBoxColumn.DataPropertyName = "wins";
-            this.winsDataGridViewTextBoxColumn.HeaderText = "Wins";
-            this.winsDataGridViewTextBoxColumn.Name = "winsDataGridViewTextBoxColumn";
-            // 
-            // drawsDataGridViewTextBoxColumn
-            // 
-            this.drawsDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.drawsDataGridViewTextBoxColumn.DataPropertyName = "draws";
-            this.drawsDataGridViewTextBoxColumn.HeaderText = "Draws";
-            this.drawsDataGridViewTextBoxColumn.Name = "drawsDataGridViewTextBoxColumn";
-            // 
-            // losesDataGridViewTextBoxColumn
-            // 
-            this.losesDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.losesDataGridViewTextBoxColumn.DataPropertyName = "loses";
-            this.losesDataGridViewTextBoxColumn.HeaderText = "Losses";
-            this.losesDataGridViewTextBoxColumn.Name = "losesDataGridViewTextBoxColumn";
-            // 
-            // pointsforDataGridViewTextBoxColumn
-            // 
-            this.pointsforDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.pointsforDataGridViewTextBoxColumn.DataPropertyName = "points_for";
-            this.pointsforDataGridViewTextBoxColumn.HeaderText = "Points Scored";
-            this.pointsforDataGridViewTextBoxColumn.Name = "pointsforDataGridViewTextBoxColumn";
-            // 
-            // pointsagainstDataGridViewTextBoxColumn
-            // 
-            this.pointsagainstDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.pointsagainstDataGridViewTextBoxColumn.DataPropertyName = "points_against";
-            this.pointsagainstDataGridViewTextBoxColumn.HeaderText = "Points Against";
-            this.pointsagainstDataGridViewTextBoxColumn.Name = "pointsagainstDataGridViewTextBoxColumn";
-            // 
-            // positionDataGridViewTextBoxColumn
-            // 
-            this.positionDataGridViewTextBoxColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.positionDataGridViewTextBoxColumn.DataPropertyName = "position";
-            this.positionDataGridViewTextBoxColumn.HeaderText = "Position";
-            this.positionDataGridViewTextBoxColumn.Name = "positionDataGridViewTextBoxColumn";
+            this.button2.BackColor = System.Drawing.Color.LightGray;
+            this.button2.ForeColor = System.Drawing.Color.Black;
+            this.button2.Location = new System.Drawing.Point(817, 12);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.TabIndex = 4;
+            this.button2.Text = "Settings";
+            this.toolTip1.SetToolTip(this.button2, "Click to edit settings");
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // StatsForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1004, 643);
-            this.Controls.Add(this.LblUserGreeting);
-            this.Controls.Add(this.btnSettings);
-            this.Controls.Add(this.btnSchedule);
-            this.Controls.Add(this.dgvTable);
-            this.Controls.Add(this.cbTeam);
-            this.Controls.Add(this.cbSport);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.CancelButton = this.btnExit;
+            this.ClientSize = new System.Drawing.Size(933, 450);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.btnExit);
-            this.Controls.Add(this.btnClear);
-            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.comboBoxSport);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.button4);
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ForeColor = System.Drawing.Color.Transparent;
+            this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Name = "StatsForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "User Dashboard";
-            this.Load += new System.EventHandler(this.StatsForm_Load_1);
-            ((System.ComponentModel.ISupportInitialize)(this.dgvTable)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.nba_teamsBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.sportsDBDataSet)).EndInit();
+            this.Text = "StatsForm";
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -274,26 +150,13 @@
 
         #endregion
 
-        private System.Windows.Forms.Button btnClear;
-        private System.Windows.Forms.Button btnExit;
+        private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.ComboBox cbSport;
-        private System.Windows.Forms.ComboBox cbTeam;
-        private System.Windows.Forms.DataGridView dgvTable;
-        private SportsDBDataSet sportsDBDataSet;
-        private System.Windows.Forms.BindingSource nba_teamsBindingSource;
-        private SportsDBDataSetTableAdapters.nba_teamsTableAdapter nba_teamsTableAdapter;
-        private SportsDBDataSetTableAdapters.TableAdapterManager tableAdapterManager;
-        private System.Windows.Forms.Button btnSchedule;
-        private System.Windows.Forms.Button btnSettings;
-        private System.Windows.Forms.Label LblUserGreeting;
-        private System.Windows.Forms.DataGridViewTextBoxColumn nameDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn winsDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn drawsDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn losesDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn pointsforDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn pointsagainstDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn positionDataGridViewTextBoxColumn;
+        private System.Windows.Forms.ComboBox comboBoxSport;
+        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.Button btnExit;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.ToolTip toolTip1;
+        private System.Windows.Forms.Button button2;
     }
 }
