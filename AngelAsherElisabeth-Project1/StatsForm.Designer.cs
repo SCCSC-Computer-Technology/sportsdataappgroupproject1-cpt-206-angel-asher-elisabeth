@@ -28,260 +28,112 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.btnClear = new System.Windows.Forms.Button();
-            this.btnExit = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.cbSport = new System.Windows.Forms.ComboBox();
-            this.cbTeam = new System.Windows.Forms.ComboBox();
-            this.dgvTable = new System.Windows.Forms.DataGridView();
-            this.nba_teamsBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.sportsDBDataSet = new AngelAsherElisabeth_Project1.SportsDBDataSet();
-            this.nba_teamsTableAdapter = new AngelAsherElisabeth_Project1.SportsDBDataSetTableAdapters.nba_teamsTableAdapter();
-            this.tableAdapterManager = new AngelAsherElisabeth_Project1.SportsDBDataSetTableAdapters.TableAdapterManager();
-            this.idDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.nameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.winsDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.drawsDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.losesDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.pointsforDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.pointsagainstDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.positionDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.sportDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.btnSchedule = new System.Windows.Forms.Button();
-            this.btnSettings = new System.Windows.Forms.Button();
-            this.LblUserGreeting = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvTable)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.nba_teamsBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.sportsDBDataSet)).BeginInit();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.label1 = new System.Windows.Forms.Label();
+            this.comboBox3 = new System.Windows.Forms.ComboBox();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
-            // btnClear
+            // button4
             // 
-            this.btnClear.Location = new System.Drawing.Point(430, 557);
-            this.btnClear.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.btnClear.Name = "btnClear";
-            this.btnClear.Size = new System.Drawing.Size(143, 51);
-            this.btnClear.TabIndex = 3;
-            this.btnClear.Text = "&Clear";
-            this.btnClear.UseVisualStyleBackColor = true;
-            this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
+            this.button4.Location = new System.Drawing.Point(290, 378);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(75, 23);
+            this.button4.TabIndex = 3;
+            this.button4.Text = "C&lear";
+            this.button4.UseVisualStyleBackColor = true;
             // 
-            // btnExit
+            // button5
             // 
-            this.btnExit.Location = new System.Drawing.Point(766, 557);
-            this.btnExit.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.btnExit.Name = "btnExit";
-            this.btnExit.Size = new System.Drawing.Size(136, 51);
-            this.btnExit.TabIndex = 4;
-            this.btnExit.Text = "E&xit";
-            this.btnExit.UseVisualStyleBackColor = true;
-            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
+            this.button5.Location = new System.Drawing.Point(403, 378);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(75, 23);
+            this.button5.TabIndex = 4;
+            this.button5.Text = "E&xit";
+            this.button5.UseVisualStyleBackColor = true;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(55, 20);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(94, 62);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(58, 20);
+            this.label2.Size = new System.Drawing.Size(46, 13);
             this.label2.TabIndex = 6;
-            this.label2.Text = "Sport:";
+            this.label2.Text = "League:";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(55, 67);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Location = new System.Drawing.Point(302, 62);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(58, 20);
+            this.label3.Size = new System.Drawing.Size(37, 13);
             this.label3.TabIndex = 7;
             this.label3.Text = "Team:";
             // 
-            // cbSport
+            // comboBox1
             // 
-            this.cbSport.FormattingEnabled = true;
-            this.cbSport.Items.AddRange(new object[] {
-            "National Basketball Association(NBA)",
-            "English Premier League(EPL)"});
-            this.cbSport.Location = new System.Drawing.Point(121, 17);
-            this.cbSport.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.cbSport.Name = "cbSport";
-            this.cbSport.Size = new System.Drawing.Size(180, 28);
-            this.cbSport.TabIndex = 8;
-            this.cbSport.SelectedIndexChanged += new System.EventHandler(this.cbSport_SelectedIndexChanged);
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(146, 59);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(121, 21);
+            this.comboBox1.TabIndex = 8;
             // 
-            // cbTeam
+            // comboBox2
             // 
-            this.cbTeam.FormattingEnabled = true;
-            this.cbTeam.Location = new System.Drawing.Point(121, 64);
-            this.cbTeam.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.cbTeam.Name = "cbTeam";
-            this.cbTeam.Size = new System.Drawing.Size(180, 28);
-            this.cbTeam.TabIndex = 9;
+            this.comboBox2.FormattingEnabled = true;
+            this.comboBox2.Location = new System.Drawing.Point(345, 59);
+            this.comboBox2.Name = "comboBox2";
+            this.comboBox2.Size = new System.Drawing.Size(121, 21);
+            this.comboBox2.TabIndex = 9;
             // 
-            // dgvTable
+            // dataGridView1
             // 
-            this.dgvTable.AutoGenerateColumns = false;
-            this.dgvTable.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvTable.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.idDataGridViewTextBoxColumn,
-            this.nameDataGridViewTextBoxColumn,
-            this.winsDataGridViewTextBoxColumn,
-            this.drawsDataGridViewTextBoxColumn,
-            this.losesDataGridViewTextBoxColumn,
-            this.pointsforDataGridViewTextBoxColumn,
-            this.pointsagainstDataGridViewTextBoxColumn,
-            this.positionDataGridViewTextBoxColumn,
-            this.sportDataGridViewTextBoxColumn});
-            this.dgvTable.DataSource = this.nba_teamsBindingSource;
-            this.dgvTable.Location = new System.Drawing.Point(45, 115);
-            this.dgvTable.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.dgvTable.Name = "dgvTable";
-            this.dgvTable.Size = new System.Drawing.Size(905, 423);
-            this.dgvTable.TabIndex = 13;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(31, 108);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(739, 242);
+            this.dataGridView1.TabIndex = 13;
             // 
-            // nba_teamsBindingSource
+            // label1
             // 
-            this.nba_teamsBindingSource.DataMember = "nba_teams";
-            this.nba_teamsBindingSource.DataSource = this.sportsDBDataSet;
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(498, 60);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(40, 13);
+            this.label1.TabIndex = 14;
+            this.label1.Text = "Match:";
             // 
-            // sportsDBDataSet
+            // comboBox3
             // 
-            this.sportsDBDataSet.DataSetName = "SportsDBDataSet";
-            this.sportsDBDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // nba_teamsTableAdapter
-            // 
-            this.nba_teamsTableAdapter.ClearBeforeFill = true;
-            // 
-            // tableAdapterManager
-            // 
-            this.tableAdapterManager.BackupDataSetBeforeUpdate = false;
-            this.tableAdapterManager.nba_teamsTableAdapter = this.nba_teamsTableAdapter;
-            this.tableAdapterManager.scheduleTableAdapter = null;
-            this.tableAdapterManager.sportsTableAdapter = null;
-            this.tableAdapterManager.UpdateOrder = AngelAsherElisabeth_Project1.SportsDBDataSetTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete;
-            this.tableAdapterManager.user_teamsTableAdapter = null;
-            this.tableAdapterManager.usersTableAdapter = null;
-            // 
-            // idDataGridViewTextBoxColumn
-            // 
-            this.idDataGridViewTextBoxColumn.DataPropertyName = "id";
-            this.idDataGridViewTextBoxColumn.HeaderText = "ID";
-            this.idDataGridViewTextBoxColumn.Name = "idDataGridViewTextBoxColumn";
-            this.idDataGridViewTextBoxColumn.Width = 50;
-            // 
-            // nameDataGridViewTextBoxColumn
-            // 
-            this.nameDataGridViewTextBoxColumn.DataPropertyName = "name";
-            this.nameDataGridViewTextBoxColumn.HeaderText = "Team Name";
-            this.nameDataGridViewTextBoxColumn.Name = "nameDataGridViewTextBoxColumn";
-            this.nameDataGridViewTextBoxColumn.Width = 150;
-            // 
-            // winsDataGridViewTextBoxColumn
-            // 
-            this.winsDataGridViewTextBoxColumn.DataPropertyName = "wins";
-            this.winsDataGridViewTextBoxColumn.HeaderText = "Wins";
-            this.winsDataGridViewTextBoxColumn.Name = "winsDataGridViewTextBoxColumn";
-            this.winsDataGridViewTextBoxColumn.Width = 70;
-            // 
-            // drawsDataGridViewTextBoxColumn
-            // 
-            this.drawsDataGridViewTextBoxColumn.DataPropertyName = "draws";
-            this.drawsDataGridViewTextBoxColumn.HeaderText = "Draws";
-            this.drawsDataGridViewTextBoxColumn.Name = "drawsDataGridViewTextBoxColumn";
-            this.drawsDataGridViewTextBoxColumn.Width = 70;
-            // 
-            // losesDataGridViewTextBoxColumn
-            // 
-            this.losesDataGridViewTextBoxColumn.DataPropertyName = "loses";
-            this.losesDataGridViewTextBoxColumn.HeaderText = "Losses";
-            this.losesDataGridViewTextBoxColumn.Name = "losesDataGridViewTextBoxColumn";
-            this.losesDataGridViewTextBoxColumn.Width = 70;
-            // 
-            // pointsforDataGridViewTextBoxColumn
-            // 
-            this.pointsforDataGridViewTextBoxColumn.DataPropertyName = "points_for";
-            this.pointsforDataGridViewTextBoxColumn.HeaderText = "Points Scored";
-            this.pointsforDataGridViewTextBoxColumn.Name = "pointsforDataGridViewTextBoxColumn";
-            // 
-            // pointsagainstDataGridViewTextBoxColumn
-            // 
-            this.pointsagainstDataGridViewTextBoxColumn.DataPropertyName = "points_against";
-            this.pointsagainstDataGridViewTextBoxColumn.HeaderText = "Points Against";
-            this.pointsagainstDataGridViewTextBoxColumn.Name = "pointsagainstDataGridViewTextBoxColumn";
-            // 
-            // positionDataGridViewTextBoxColumn
-            // 
-            this.positionDataGridViewTextBoxColumn.DataPropertyName = "position";
-            this.positionDataGridViewTextBoxColumn.HeaderText = "Position";
-            this.positionDataGridViewTextBoxColumn.Name = "positionDataGridViewTextBoxColumn";
-            // 
-            // sportDataGridViewTextBoxColumn
-            // 
-            this.sportDataGridViewTextBoxColumn.DataPropertyName = "sport";
-            this.sportDataGridViewTextBoxColumn.HeaderText = "Sport";
-            this.sportDataGridViewTextBoxColumn.Name = "sportDataGridViewTextBoxColumn";
-            this.sportDataGridViewTextBoxColumn.Width = 150;
-            // 
-            // btnSchedule
-            // 
-            this.btnSchedule.Location = new System.Drawing.Point(85, 557);
-            this.btnSchedule.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.btnSchedule.Name = "btnSchedule";
-            this.btnSchedule.Size = new System.Drawing.Size(132, 51);
-            this.btnSchedule.TabIndex = 14;
-            this.btnSchedule.Text = "&View Schedule";
-            this.btnSchedule.UseVisualStyleBackColor = true;
-            this.btnSchedule.Click += new System.EventHandler(this.btnSchedule_Click);
-            // 
-            // btnSettings
-            // 
-            this.btnSettings.Location = new System.Drawing.Point(822, 17);
-            this.btnSettings.Name = "btnSettings";
-            this.btnSettings.Size = new System.Drawing.Size(161, 54);
-            this.btnSettings.TabIndex = 15;
-            this.btnSettings.Text = "&Update Account";
-            this.btnSettings.UseVisualStyleBackColor = true;
-            this.btnSettings.Click += new System.EventHandler(this.btnSettings_Click);
-            // 
-            // LblUserGreeting
-            // 
-            this.LblUserGreeting.AutoSize = true;
-            this.LblUserGreeting.Location = new System.Drawing.Point(388, 17);
-            this.LblUserGreeting.Name = "LblUserGreeting";
-            this.LblUserGreeting.Size = new System.Drawing.Size(51, 20);
-            this.LblUserGreeting.TabIndex = 16;
-            this.LblUserGreeting.Text = "label1";
+            this.comboBox3.FormattingEnabled = true;
+            this.comboBox3.Location = new System.Drawing.Point(544, 59);
+            this.comboBox3.Name = "comboBox3";
+            this.comboBox3.Size = new System.Drawing.Size(121, 21);
+            this.comboBox3.TabIndex = 15;
             // 
             // StatsForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1004, 643);
-            this.Controls.Add(this.LblUserGreeting);
-            this.Controls.Add(this.btnSettings);
-            this.Controls.Add(this.btnSchedule);
-            this.Controls.Add(this.dgvTable);
-            this.Controls.Add(this.cbTeam);
-            this.Controls.Add(this.cbSport);
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.comboBox3);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.comboBox2);
+            this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.btnExit);
-            this.Controls.Add(this.btnClear);
-            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.Controls.Add(this.button5);
+            this.Controls.Add(this.button4);
             this.Name = "StatsForm";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "User Dashboard";
-            this.Load += new System.EventHandler(this.StatsForm_Load_1);
-            ((System.ComponentModel.ISupportInitialize)(this.dgvTable)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.nba_teamsBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.sportsDBDataSet)).EndInit();
+            this.Text = "StatsForm";
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -289,28 +141,14 @@
 
         #endregion
 
-        private System.Windows.Forms.Button btnClear;
-        private System.Windows.Forms.Button btnExit;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.ComboBox cbSport;
-        private System.Windows.Forms.ComboBox cbTeam;
-        private System.Windows.Forms.DataGridView dgvTable;
-        private SportsDBDataSet sportsDBDataSet;
-        private System.Windows.Forms.BindingSource nba_teamsBindingSource;
-        private SportsDBDataSetTableAdapters.nba_teamsTableAdapter nba_teamsTableAdapter;
-        private SportsDBDataSetTableAdapters.TableAdapterManager tableAdapterManager;
-        private System.Windows.Forms.DataGridViewTextBoxColumn idDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn nameDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn winsDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn drawsDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn losesDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn pointsforDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn pointsagainstDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn positionDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn sportDataGridViewTextBoxColumn;
-        private System.Windows.Forms.Button btnSchedule;
-        private System.Windows.Forms.Button btnSettings;
-        private System.Windows.Forms.Label LblUserGreeting;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.ComboBox comboBox3;
     }
 }
