@@ -5325,9 +5325,9 @@ SELECT Id, date, time, home, away, score, venue, sport FROM schedule WHERE (Id =
             this._commandCollection[0].CommandType = global::System.Data.CommandType.Text;
             this._commandCollection[1] = new global::System.Data.SqlClient.SqlCommand();
             this._commandCollection[1].Connection = this.Connection;
-            this._commandCollection[1].CommandText = "SELECT        date AS Date, time AS Time, home, away, score AS Score, venue AS Ve" +
-                "nue\r\nFROM            schedule\r\nWHERE        (home LIKE @teamName) OR\r\n          " +
-                "               (away LIKE @teamName)";
+            this._commandCollection[1].CommandText = "SELECT        Id, date, time, home, away, score, venue, sport\r\nFROM            sc" +
+                "hedule\r\nWHERE        (home LIKE @teamName) OR\r\n                         (away LI" +
+                "KE @teamName)";
             this._commandCollection[1].CommandType = global::System.Data.CommandType.Text;
             this._commandCollection[1].Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@teamName", global::System.Data.SqlDbType.Text, 2147483647, global::System.Data.ParameterDirection.Input, 0, 0, "home", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
         }
