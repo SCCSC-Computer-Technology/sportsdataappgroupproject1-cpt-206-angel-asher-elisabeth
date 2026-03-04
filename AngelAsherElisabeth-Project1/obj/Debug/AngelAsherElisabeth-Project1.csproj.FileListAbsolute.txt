@@ -29,18 +29,3 @@ C:\Users\Angel Parada\source\repos\sportsdataappgroupproject1-cpt-206-angel-ashe
 C:\Users\Angel Parada\source\repos\sportsdataappgroupproject1-cpt-206-angel-asher-elisabeth\AngelAsherElisabeth-Project1\bin\Debug\AngelAsherElisabeth-Project1.exe.config
 C:\Users\Angel Parada\source\repos\sportsdataappgroupproject1-cpt-206-angel-asher-elisabeth\AngelAsherElisabeth-Project1\bin\Debug\AngelAsherElisabeth-Project1.exe
 C:\Users\Angel Parada\source\repos\sportsdataappgroupproject1-cpt-206-angel-asher-elisabeth\AngelAsherElisabeth-Project1\bin\Debug\AngelAsherElisabeth-Project1.pdb
-C:\Users\asher\source\repos\sportsdataappgroupproject1-cpt-206-angel-asher-elisabeth\AngelAsherElisabeth-Project1\bin\Debug\SportsDB.mdf
-C:\Users\asher\source\repos\sportsdataappgroupproject1-cpt-206-angel-asher-elisabeth\AngelAsherElisabeth-Project1\bin\Debug\SportsDB_log.ldf
-C:\Users\asher\source\repos\sportsdataappgroupproject1-cpt-206-angel-asher-elisabeth\AngelAsherElisabeth-Project1\obj\Debug\AngelAsherElisabeth-Project1.csproj.AssemblyReference.cache
-C:\Users\asher\source\repos\sportsdataappgroupproject1-cpt-206-angel-asher-elisabeth\AngelAsherElisabeth-Project1\obj\Debug\AngelAsherElisabeth_Project1.CustomizationForm.resources
-C:\Users\asher\source\repos\sportsdataappgroupproject1-cpt-206-angel-asher-elisabeth\AngelAsherElisabeth-Project1\obj\Debug\AngelAsherElisabeth_Project1.Form1.resources
-C:\Users\asher\source\repos\sportsdataappgroupproject1-cpt-206-angel-asher-elisabeth\AngelAsherElisabeth-Project1\obj\Debug\AngelAsherElisabeth_Project1.Properties.Resources.resources
-C:\Users\asher\source\repos\sportsdataappgroupproject1-cpt-206-angel-asher-elisabeth\AngelAsherElisabeth-Project1\obj\Debug\AngelAsherElisabeth_Project1.RegisterForm.resources
-C:\Users\asher\source\repos\sportsdataappgroupproject1-cpt-206-angel-asher-elisabeth\AngelAsherElisabeth-Project1\obj\Debug\AngelAsherElisabeth_Project1.StatsForm.resources
-C:\Users\asher\source\repos\sportsdataappgroupproject1-cpt-206-angel-asher-elisabeth\AngelAsherElisabeth-Project1\obj\Debug\AngelAsherElisabeth-Project1.csproj.GenerateResource.cache
-C:\Users\asher\source\repos\sportsdataappgroupproject1-cpt-206-angel-asher-elisabeth\AngelAsherElisabeth-Project1\obj\Debug\AngelAsherElisabeth-Project1.csproj.CoreCompileInputs.cache
-C:\Users\asher\source\repos\sportsdataappgroupproject1-cpt-206-angel-asher-elisabeth\AngelAsherElisabeth-Project1\obj\Debug\AngelAsherElisabeth-Project1.exe
-C:\Users\asher\source\repos\sportsdataappgroupproject1-cpt-206-angel-asher-elisabeth\AngelAsherElisabeth-Project1\obj\Debug\AngelAsherElisabeth-Project1.pdb
-C:\Users\asher\source\repos\sportsdataappgroupproject1-cpt-206-angel-asher-elisabeth\AngelAsherElisabeth-Project1\bin\Debug\AngelAsherElisabeth-Project1.exe.config
-C:\Users\asher\source\repos\sportsdataappgroupproject1-cpt-206-angel-asher-elisabeth\AngelAsherElisabeth-Project1\bin\Debug\AngelAsherElisabeth-Project1.exe
-C:\Users\asher\source\repos\sportsdataappgroupproject1-cpt-206-angel-asher-elisabeth\AngelAsherElisabeth-Project1\bin\Debug\AngelAsherElisabeth-Project1.pdb
