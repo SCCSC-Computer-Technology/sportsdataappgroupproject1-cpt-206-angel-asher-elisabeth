@@ -16,5 +16,27 @@ namespace AngelAsherElisabeth_Project1
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            string username = TxtUsername.Text;
+            string password = TxtPassword.Text;
+            string email = TxtEmail.Text;
+            if (username == "" || password == "" || email == "")
+            {
+                MessageBox.Show("Please fill in all fields.");
+                return;
+            }
+            else if (email.Contains("@") == false || email.Contains(".") == false)
+            {
+                MessageBox.Show("Please enter a valid email address.");
+                return;
+            }
+            User user = new User();
+            int result = user.RegisterUser(username, password, email);
+            MessageBox.Show("registration result is " + result.ToString());
+            
+
+        }
     }
 }

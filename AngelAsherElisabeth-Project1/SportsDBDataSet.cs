@@ -7,9 +7,12 @@
     }
 }
 
-namespace AngelAsherElisabeth_Project1.SportsDBDataSetTableAdapters {
-    
-    
+namespace AngelAsherElisabeth_Project1.SportsDBDataSetTableAdapters
+{
+    partial class usersTableAdapter
+    {
+    }
+
     public partial class sportsTableAdapter {
     }
 }

@@ -32,5 +32,28 @@ namespace AngelAsherElisabeth_Project1
             this.Hide();
             customizationForm.Show();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            User user = new User();
+            string  username = textBox1.Text;
+            string password = textBox2.Text;
+            int loginResult = user.Login(username, password);
+            
+            if (loginResult < 0)
+            {
+                MessageBox.Show("Login failed! Try Again");
+                // Proceed to the next form or functionality
+            }
+            else { 
+                MessageBox.Show("Login successful! Welcome, " + username);
+                // Proceed to the next form or functionality
+                Dashboard dashboard = new Dashboard(loginResult);
+                this.Hide();
+                dashboard.UserId = loginResult;
+                dashboard.Show();
+            }
+
+        }
     }
 }
