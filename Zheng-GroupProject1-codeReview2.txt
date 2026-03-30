@@ -1,0 +1,5 @@
+Hello Group, 
+
+I just review your sport project. I wasn't able to register an account and log into the project. Whenever I get redirected to create an account, and fill out the fields, it wouldn't take me back to the log in screen. And whenever you leave the program or by pressing the X and relaunch the solution, it would not remember the log in I just created. 
+
+Looking through the backend, your project looks very nice. However, the statform and Schedule pages were just left white and without the page templete colors. Unfortunately, since I couldn't get log in, I couldn't see if the data was right. But overall, your app looks great. 
